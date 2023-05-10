@@ -1,0 +1,144 @@
+body{
+    font-family: "Montserrat",sans-serif;
+}
+#title{
+    background-color:#ff4c68;
+    color:white;
+}
+.top{
+ padding:3% 15%;
+}
+
+
+.heading{
+    font-family:"Montserrat",sans-serif;
+      font-size:4rem;
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.nav-link{
+    font-family:"Montserrat-light"
+}
+
+.title-img{
+    width:18%;
+    transform: rotate(20deg);
+    position:absolute;
+
+}
+.features{
+   color: #ef8172;
+   text-align:center;
+   padding-bottom:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  
+}
+
+#features{
+    padding:7% 15%;
+    background-color:#fff;
+    position:relative;
+    z-index:1;
+    
+}
+.fea-head{
+    font-size:1.5rem;
+    font-family:"Montserrat", sans-serif;
+
+}
+
+.fea-p{
+    color:#8f8f8f;
+    font-size:15px;
+}
+.box{
+    text-align:center;
+    padding:5%;
+}
+
+.features:hover{
+ color:#ff4c68;
+
+}
+
+#testimonials{
+    padding:100px 150px 150px 150px;
+    text-align:center;
+    background-color: #ef8172;
+    color:#ffff;
+
+}
+h2{ 
+    
+        font-family:"Montserrat",sans-serif;
+    font-size:3rem; 
+}
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align:center;
+    padding-bottom:50px;
+}
+.press-img{
+    width:10%;
+    text-align:center;
+    margin:20px 20px 50px;
+}
+.btn-pricing{
+    width:100%;
+}
+
+#pricing{
+    padding:100px;
+    text-align:center;
+}
+@media(max-width:1120px){
+    .title-img{
+        position:static;
+        transform:rotate(0deg);
+        width:50%;
+    }
+    #title{
+        text-align:center;
+    }
+}
+
+#cta{
+    padding:150px 150px 150px 200px;
+    text-align:center;
+    background-color:#ff4c68;
+}
+
+.cta{
+    font-family:"Montserrat",sans-serif;
+    font-size:2.5rem;
+    color:#fff
+}
+
+#footer{
+    padding:160px 150px 150px 130px;
+    text-align:center;
+}
+
+.foo-img:hover{
+    color:grey;
+}
+
+.foo-img{
+    margin:10px;
+
+}
